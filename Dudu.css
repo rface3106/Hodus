@@ -1,0 +1,273 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#header-container{
+  padding-right: 320px;
+  padding-left: 320px;
+  background: #F2E9D8;
+  width: 1920px;
+  height: 102px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-item {
+  display: flex;
+}
+#piece3{
+  padding-right: 49px;
+  display: flex;
+  align-items: center;
+  gap:30px;
+}
+button{
+  width: 140px;
+  height: 50px;
+  border-radius: 40px;
+  border:none;
+  background: #D97652;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+header{
+  padding-right: 320px;
+  padding-left: 320px;
+  background: #F2E9D8;
+  width: 1920px;
+  height: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+
+}
+strong{
+  font-size: 48px;
+}
+#split-box{
+  padding-top: 200px;
+  padding-bottom: 262px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:40px;
+
+}
+#box-cat{
+  width: 415px;
+  height: 766px;
+}
+
+#article{
+  width: 1920px;
+  padding-right: 320px;
+  padding-left: 320px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  gap:110px;
+}
+#nup-du{
+  width: 660px;
+  height: 390px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+#nup-textbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+#nup-bold{
+  font-size: 36px;
+}
+
+#justWord{
+  width: 1920px;
+  padding-right: 320px;
+  padding-left: 320px;
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+#jw-bold{
+  font-size: 48px;
+  color: #D97652;
+}
+#justword-textbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:40px;
+}
+#justWord-minibox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#color{
+  color: #D97652;
+}
+
+main{
+  width: 1920px;
+  padding-right: 320px;
+  padding-left: 320px;
+  padding-top: 88px;
+  display: flex;
+  gap: 72px;
+}
+#main2{
+  width: 1920px;
+  padding-right: 320px;
+  padding-left: 320px;
+  padding-top: 72px;
+  display: flex;
+  gap: 72px;
+}
+
+#p1, #p2, #p3, #p4, #p5, #p6{
+  width: 378px;
+  height: 378px;
+  border-radius: 30px;
+  object-fit: cover;
+
+}
+#continue{
+  width: 1920px;
+  padding-right: 320px;
+  padding-left: 320px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#con-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+#con-bold{
+  font-size: 24px;
+}
+
+#show{
+  width: 143px;
+  height: 50px;
+  border-radius: 40px;
+  border:none;
+  background: #D97652;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+#con-line{
+ padding-top: 80px;
+}
+
+#juso{
+  width: 1920px;
+  padding-right: 320px;
+  padding-left: 320px;
+  padding-top: 68px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#juso-bold{
+  font-size: 36px;
+}
+
+#address{
+  position: relative;
+  width: 1920px;
+  padding-right: 320px;
+  padding-left: 320px;
+  padding-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#face{
+  width: 1920px;
+  padding-top: 181px;
+}
+
+footer{
+  padding-right: 320px;
+  padding-left: 320px;
+  width: 1920px;
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#piece4{
+  display: flex;
+  gap: 29px;
+}
+
+#sub{
+  position: absolute;
+  bottom: -280px;
+ background: #263140;
+  width: 1280px;
+  height: 201px;
+  border-radius: 30px;
+  color: #FFFFFF;
+  padding: 50px 58px 51px 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+#sub-bold{
+  font-size: 36px;
+}
+
+#sub-slim{
+  font-size: 14px;
+}
+
+#sub-box{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+#sub-enterbox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 530px;
+  height: 60px;
+  background: #FFFFFF;
+  color: black;
+  border-radius: 60px;
+  padding-right: 5px;
+  padding-left: 28px;
+
+}
+
+#mail{
+  width: 24px;
+  height: 24px;
+}
+
+#enterbox-split{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #767676;
+  gap: 137px;
+}

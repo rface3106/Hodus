@@ -133,10 +133,7 @@ main{
 }
 
 #p1, #p2, #p3, #p4, #p5, #p6{
-  width: 378px;
-  height: 378px;
   border-radius: 30px;
-  object-fit: cover;
 
 }
 #continue{

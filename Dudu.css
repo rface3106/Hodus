@@ -315,29 +315,10 @@ main{
   align-items: center;
 }
 
-#face{
-  width: 1920px;
-  padding-top: 181px;
-}
-
-footer{
-  padding-right: 320px;
-  padding-left: 320px;
-  width: 1920px;
-  height: 160px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#piece4{
-  display: flex;
-  gap: 29px;
-}
-
 #sub{
   position: absolute;
   bottom: -280px;
- background: #263140;
+  background: #263140;
   width: 1280px;
   height: 201px;
   border-radius: 30px;
@@ -390,3 +371,40 @@ footer{
   color: #767676;
   gap: 137px;
 }
+
+#just-space{
+  height: 181px;
+}
+
+#face-box{
+  background-image: url("img/face.png");
+  width: 1920px;
+  height: 340px;
+  padding-right: 24px;
+  padding-bottom: 19px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+#scroll{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+
+footer{
+  padding-right: 320px;
+  padding-left: 320px;
+  width: 1920px;
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#piece4{
+  display: flex;
+  gap: 29px;
+}
+
